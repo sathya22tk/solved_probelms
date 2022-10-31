@@ -1,0 +1,2 @@
+1. print linearly from 1 to n using backtracking
+2. print linearly from N to 1 using backtracking

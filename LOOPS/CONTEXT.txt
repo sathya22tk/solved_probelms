@@ -1,0 +1,69 @@
+1. PRINT PATTERNS:
+                 *
+               * * *
+             * * * * *
+         INPUT : get number of rows from the user
+2. PRINT PATTERNS
+                *
+               * *
+              * * *
+         INPUT : get number of rows from the user
+3. find the factorial of number.
+4. print the 1st n natural even numbers and their sum.
+5. print 
+		    1
+		   2 2
+		  3 3 3
+		 4 4 4 4
+6. 1 + 1/2 + 1/3 + 1/4 + 1/5 ... 1/n terms.. generate 
+   this series and theie sum.
+7. print       *
+             ***
+            *****
+         each row should have odd number of '*'
+8. print this series and their sum 
+     9 + 99 + 999 + 9999 ...
+9. print
+         1 
+         01
+         101 
+         0101 
+         10101
+10. print sum of this series 1+x+x^2/2!+x^3/3!+....
+11. print the terms and sum of this series 
+    x - x^3 + x^5 - .....
+12. Write a program in C to display the n terms of    
+    square natural number and their sum
+13. Write a program in C to find the
+    sum of the series 1 +11 + 111 + 1111 + .. n terms
+14. Write a c program to check whether a given number is 
+    a perfect number or not.
+15. Write a c program to find the perfect numbers within 
+    a given number of range.
+16. Write a C program to check whether a given
+    number is an armstrong number or not.
+17. Write a C program to find the
+   Armstrong number for a given range of number.
+18. PRINT
+    *
+   *** 
+  *****
+ *******
+********* 
+ *******
+  *****
+   ***
+    * 
+19. Write a C program to determine
+    whether a given number is prime or not.
+20. Write a program in C to find the 
+    prime numbers within a range of numbers.
+21. Write a program in C to display the
+    first n terms of Fibonacci series.
+22. print
+          1
+         121
+        12321
+23. reverse the number
+24. find second largest in array (t.c: nlogn)
+25. find second largest in array

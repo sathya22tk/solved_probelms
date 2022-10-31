@@ -1,0 +1,5 @@
+1. Defining enumeration
+2. Traversing through enum
+3. input = wednesday...output = 4
+   function should return the ex: 1st day of week is sunday...so it should return 1 if input is sunday
+4. program to demonstrate that enum variable take 1ly 1 value out of other possible values in enum declaration

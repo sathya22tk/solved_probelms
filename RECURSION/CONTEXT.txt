@@ -1,0 +1,105 @@
+1. print name n times using recursion
+
+2. print linearly from 1 to n using recursion
+
+3. print linearly from n to 1 using recursion
+
+4. print sum of n numbers using parametrized recursion
+
+5. print sum of n numbers using functional recursion
+
+6. print factorial of of n using parameterized recursion
+
+7. print factorial of of n using functional recursion
+
+8. Q:reverse an array
+   approch : using 1 iterator & use recursion.
+           : swap(a[i],a[n-1-i])
+	   :tc & sc (log n)
+
+9. reverse an array
+   approch : using 2 iterator & use recursion.
+           : swap(a[l],a[r])
+	   :tc & sc (log n)
+
+10. check palindrome of string
+			tc : O(logn)  sc: O(log n)
+
+11. find nth fibonacci number using  recursion(multiple 	recrsion)
+			tc : O(2^n)(not exactly)  sc: O(1)
+
+PATTERNS:
+	
+12. print all subsequence  using  recursion
+    
+13. print all subsequence whose sum is k
+
+14. print any one subsequence whose sum is k
+
+15. count all subsequence whose sum is k
+
+		tc : O(2^n)  (every index takes 2 operations  pick/not pick) + O(n) priting
+
+   		sc : n (accurately maximum 3 calls are waiting in 		 stack at a time....in recursive prblm height of 	  recursion tree is the stack space)
+
+16. combination of given sum(version 1)
+		tc : O(2^t)*k
+		sc : O(k*x)
+
+17. combination of given sum(version 2)
+		tc : O(2^n)*k
+		sc : O(k*x)
+
+18. subet sum
+		tc :O(2^n) * 2^n(log 2^n)
+		sc : O(n)
+
+19. unique subset
+		tc :O(2^n) * n
+		sc : O(n) + O(2^n)*k
+
+20. permutations (version 1)
+		tc :O(n!) * O(n)
+		sc : O(n) + O(n)
+
+21. permutations (version 2)
+		tc :O(n!) * O(n)
+		sc : O(1)
+
+22. n queens (version 1)
+		tc :O(n!*n)
+		sc : O(n^2)(ans array space)
+
+23. n queens (version 2)
+		tc :O(n!*n)
+		sc : O(n)(only stack space)
+
+24. suduko solver
+		tc : O(9^(n^2)) in the worst case
+			=> each cell in the n^2 board, we have 9 			possibility
+		sc : O(1)
+
+25. coloring graph
+		tc :O(n^m)
+			=> for each n nodes we check for m colors
+		sc : O(n)(only stack space)
+
+26. palindrome partition
+		tc :O(2^n) * O(k) * O(n/2)
+			=> O(2^n) - to generate substring
+			=> O(n/2) - to check substring generated is 		palindrome or not
+			=> O(k)   - is  for inserting palindrome in 		another data structure where k is average		 length of palindrome list
+		sc : O(K*x) 
+			=> sc is vary depending upon the answer.where k 	is average legnth of list of palindromes ans 	if	we have x such list so k*x
+			=> deption of recursion tree is n .so auxiliary 	space is O(n)
+
+27. rat in maze
+		tc: O(4^n*m)
+		sc: O(n*m)
+			=> this legnth of recursion tree in worst case
+
+28. kth permutation
+		tc: O(n) + O(n)
+			=> O(n) for inserting n elements into data 			structure
+				O(n) for erasing n elements into data 			structure
+			sc: O(n) for storing answer
