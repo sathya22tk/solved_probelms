@@ -1,0 +1,81 @@
+1. FIND BIG & SMALL ELEMENT FROM AN ARRAY WITH MINIMUM COMPARISION
+
+2. reverse an array without using extra space
+
+3. Q: rotate the array(using temp array)
+   tc: n  sc:index Of d(size of temp array)
+
+4. Q: rotate the array by d elements one by one
+   tc: n*d  sc: 1
+
+5.  find second largest in array (t.c: nlogn)
+
+7.  print no of common number b/w 2 arrays of different size
+ tc: O(N^2),  sc O(1)(bruteforce approch)
+
+8. print largest sum of d consecutive elements
+	tc: O(n*d) , sc: O(1) (bruteforce approch)
+
+9. Set matrix to zero
+		brute force: tc:O(n*m) + O(n*m) * O(n+M), sc : O(1) 
+		optimal : tc:O(2*(n*m), sc : O(1) 
+
+10. Generate pascals triangle
+		brute force : tc O(n^2) sc; O(1);
+
+11. next permutations
+		tc: O(n)
+
+12. maximum subarray(kadane's algorithm)
+		brute : tc : O(n^2) sc : O(1)
+		optimal : tc : O(n) sc : O(1)
+
+13. sort the colors
+		brute : tc : O(n*logn)   sc : O(1);
+		better : tc : O(n) + O(n) sc : O(1);
+		optimal : tc O(n) sc : O(1)
+
+14. stock buy & sell 
+		brute : tc : O(n^2)  sc : O(1)
+		optimal : tc : O(n)  sc : O(1)
+
+15. rotate matrix 90 degree (right)
+		brute : tc : O(n^2) sc: O(n^2)
+		optimal : tc : 2*O(n^2) sc: O(1)
+
+	rotate matrix 90 degree (left)
+		brute : tc : O(n^2) sc: O(n^2)
+		optimal : tc : 2*O(n^2) sc: O(1)
+
+16. merge intervals
+		optimal : tc: O(nlogn) + O(n);
+
+17. three sum
+		brute : tc : O(n^3) sc: O(k) k is no of triplets
+		optimal : tc : 2*O(n^2) sc: O(1)
+
+18. water trapping
+		brute : tc : O(n^2) sc: O(1)
+		better : tc : O(3*n) sc: O(n) + O(n)
+		optimal: tc : O(n)  sc : O(1)
+
+19. find duplicates in sorted array
+		optimal : tc : O(n)  sc:O(1)
+
+20. find count of consecutive ones
+		optimal : tc : O(n)  sc:O(1)
+
+21. count of meetings(greedy)
+		optimal : tc : O(n)  sc:O(1)
+
+22. train platforms (greedy)
+		optimal : tc : O(2*nlogn) + O(2n)  sc:O(1)
+
+23. job sequencing (greedy)
+		optimal : tc : O(n^2)  sc:O(m) where m is 				maxdeadline(as track array size)
+
+24. fractional knapsack (greedy)
+		optimal : tc : O(nlogn)  sc:O(1)
+
+25. minimum coins(greedy)
+		optimal : tc : O(v) v is value sc:O(1)

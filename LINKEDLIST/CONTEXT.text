@@ -1,0 +1,15 @@
+1. Implementation of linkedlist
+2. => reverse the entire list
+   => reverse in group
+   => creating cycle in list
+   => checking that list has loop or not
+   => dipalying the starting point of the list(if it has  
+      loop)
+   => print the middle node of list
+   => check palindorme
+   => delete a node but head node of the list is not 
+      provided
+   => rotate a list by k times right side
+   => clone of normal singly  list
+
+3. Clone a funky liked list

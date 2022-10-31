@@ -1,0 +1,51 @@
+1. implementing binary search iteratively.
+
+2. implementing binary search recusively.
+
+3. search a number in 2d matrix using binary search
+   tc: O(n)
+
+4. finding the 1st occurence of the element in sorted 	array
+    tc: O(logn);
+
+5  find element in decending ordered array(binary search)
+	tc: O(log N) sc : O(1)
+
+6. order agnostic binary search(works for both sort(ascending & decending))
+	tc: O(log N), sc : O(1)
+
+7. ceiling of a number(smallest number which is greater than or equal to the given number)
+    	tc: O(log N), sc : O(1)
+
+8. floor of the  number(bigest number which is less than or equal to the given number)
+		tc: O(log N), sc : O(1)
+
+9.find the index of last occurence of given number
+		tc: O(log N), sc : O(1)
+
+10. find the index of first & last occurence of given number .(naive approach)
+		tc: O(N), sc : O(1)
+
+11. find 1st and last occurence of given number in sorted array (bianary search why becoz since it is a sorted rray)
+		tc: O(log N), sc : O(1)
+
+12.  find the index of first & last occurence of given number .(brute force approach)(2 pointer)
+		tc: O(N), sc : O(1)
+
+13.  finding a position of a number in infinite sorted array(means legth of the array is not specified and not allowing to use legnth of arry)
+			tc: O(log N), sc : O(1)
+
+14. find peak index of mountain array
+https://leetcode.com/problems/peak-index-in-a-mountain-array/
+		tc: O(log N), sc : O(1)
+
+15. find the element in mountain array
+https://leetcode.com/problems/find-in-mountain-array/
+		tc: O(log N), sc : O(1)
+
+16. find element in rotated array
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+		tc: O(log N), sc : O(1)
+
+17. find the count of rotation happened in rotated   array
+		tc: O(log N), sc : O(1)
