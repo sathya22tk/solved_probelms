@@ -1,0 +1,6 @@
+1. reverse a string tc : O(n), sc: O(n)
+2. reverse a string without pointer,and no extra space
+   tc : O(log n)  sc : O(1)
+3. reverse a string using recursion tc : O(log n) sc :  O(1)
+
+

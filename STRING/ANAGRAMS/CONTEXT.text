@@ -1,0 +1,9 @@
+1. find given two strinngs are anagram or not
+	(using sorting)
+	tc: O(n log n), scc: O(1)
+	-----------has some mistake-------
+
+count ocuurences of annagram:
+	
+	2. count ocuurences of annagram(brute : using map)
+	3. efficent solution
