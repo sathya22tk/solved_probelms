@@ -1,7 +1,5 @@
-.DS_Store
-main.dSYM/
-output.txt
 
+.DS_Store
 PATTERNS/main
 PATTERNS/main.dSYM
 PATTERNS/output.txt
