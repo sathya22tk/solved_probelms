@@ -79,3 +79,9 @@
 
 25. minimum coins(greedy)
 		optimal : tc : O(v) v is value sc:O(1)
+
+26. Reverse the words in the given array
+	https://leetcode.com/problems/reverse-words-in-a-string/description/
+
+	brute:  tc : O(n)  sc:O(n) where stack space
+	optimal:  tc : O(n)  sc:O(1)
